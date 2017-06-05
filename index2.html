@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>גולומביה</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/css2.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+<div class="pre-header">
+  
+</div>
+<section id="header">
+
+
+
+<nav id="nav-static" class="navbar navbar-default navbar-fixed-top">
+ <div class="container">
+
+    <div class="navbar-header container">
+
+      <a class="navbar-brand col-xs-6" href="#">
+
+    
+      </a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="slide-collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar icon-bar1"></span>
+        <span class="icon-bar icon-bar2"></span>
+        <span class="icon-bar icon-bar3"></span>
+      </button>
+
+
+
+
+
+    </div>
+
+
+<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" >
+   <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+      <li><a href="#">Link</a></li>
+      <li class="dropdown">
+         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a> 
+         <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+         </ul>
+      </li>
+   </ul>
+
+      </li>
+   </ul>
+</div>
+
+  </div>
+
+
+</nav>
+    
+
+
+  </div>
+
+</div>
+</div>
+
+</section>
+
+
+
+<section class="main-content">
+  
+<div class="container-fluid">
+  
+<div class="row">
+  
+
+<div class="side-menu col-md-3 col-xs-12">
+  
+
+
+<div class="next-show side-menu-tab col-md-12 col-xs-3">
+<button data-toggle="collapse" data-target="#collapsible">הופעה</button>
+
+
+</div>
+
+
+<div class="past-shows side-menu-tab col-md-12 col-xs-3">
+<button data-toggle="collapse" data-target="#collapsible">  עבר</button>
+
+</div>
+
+<div class="future-shows side-menu-tab col-md-12 col-xs-3">
+  
+<button data-toggle="collapse" data-target="#collapsible">עתיד</button>
+</div>
+
+
+<div class="music side-menu-tab col-md-12 col-xs-3">
+  
+<button data-toggle="collapse" data-target="#collapsible">מוזיקה</button>
+</div>
+
+</div>
+
+
+
+
+
+<section class="content-itself col-md-9 col-xs-12">
+
+
+<div id="collapsible" class="show-content">
+<div  class="show-title col-md-6">
+
+<h1>יונתן גולדמן</h1>
+<h2>ביחד עם להקת הפלדלת</h2>
+<div class="row show-info">
+  
+<div class="col-md-6 when"> 
+<div class="row">
+  <div class="when-title col-md-12">
+    <h3>מוצש</h3>
+
+  </div>
+    <div class="when-text col-md-12">
+      <h4>24.06</h4>
+    </div>
+</div>
+
+</div>
+
+<div class="col-md-6 where"> 
+<div class="row">
+  <div class="where-title col-md-12">
+    <h3>פיפל פיצה</h3>
+
+  </div>
+    <div class="where-text col-md-12">
+      <h4>מסילת ישרים 92, תל אביב</h4>
+    </div>
+</div>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
+<div class="show-demo col-md-6">
+  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6bZeu6yRkFM" frameborder="0" allowfullscreen></iframe>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+  
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  $('[data-toggle="slide-collapse"]').on('click', function() {
+    $navMenuCont = $($(this).data('target'));
+    $navMenuCont.animate({'width':'toggle'}, 350);
+ 
+});
+
+
+$('[data-toggle="slide-collapse"]').click(function() {
+    $('.icon-bar1').toggleClass('ex1');
+       $('.icon-bar2').toggleClass('ex2');
+        $('.icon-bar3').toggleClass('ex3');
+
+});
+ 
+
+
+
+    $(window).scroll(function() {
+  if ($(document).scrollTop() > 0) {
+    $('nav').addClass('nav-scroll');
+       $('.tabs-section').addClass('tabs-scroll');
+   $('.pre-header').addClass('pre-header-scroll');
+
+       $('nav').attr('id', 'nav-scroll');
+
+
+  } else {
+    $('nav').removeClass('nav-scroll');
+       $('.tabs-section').removeClass('tabs-scroll');
+ $('.pre-header').removeClass('pre-header-scroll');
+
+              $('nav').attr('id', 'nav-static');
+
+  }
+});
+
+
+</script>
+
+  </body>
+</html>

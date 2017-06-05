@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'haimg';
+  src:url('../fonts/fonts/News-Regular.ttf');
+}
+
+
+
+
+h1 {
+    font-size: 76px;
+    font-family: haimg;
+    line-height: 1;
+}
+
+h2{
+    font-size: 30px;
+    font-family: haimg;
+    line-height: 1.7;
+}
+
+
+
+
+.pre-header{
+    transition:all 0.3s linear;
+    background-color:black;
+}
+
+.pre-header-scroll{
+      transition:all 0.3s linear;
+    height: 20vh;
+
+}
+
+.navbar{
+   transition:all 0.3s linear;
+         height: 20vh;
+         position: static;
+         margin-bottom:0px;
+}
+
+.nav-scroll{
+      transition:all 0.3s linear;
+  position:fixed;
+  height:70px;
+}
+
+.navbar-header{
+
+}
+
+.navbar-brand {
+      transition:all 0.3s linear;
+    float: right;
+    background-image: url(../assets/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+        margin-top: 20px;
+
+}
+
+#nav-scroll .navbar-brand{
+    height: 30px;
+}
+
+.navbar-toggle {
+      transition:all 0.3s linear;
+    border: none;
+  float: left;
+
+    margin-top: 75px;
+      z-index: 34;
+
+
+}
+
+#nav-scroll .navbar-toggle{
+    margin-top: 7px;
+}
+
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #2b2b2b;
+    display: block;
+    width: 31px;
+    height: 2px;
+    margin-bottom: 6px;
+
+    }
+
+    .navbar-collapse{
+    top: 100px;
+    left: 0px;
+    height:100vh;
+        background: white;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    margin-left: 0px!important;
+    width: 100vw;
+
+  }
+}
+
+.navbar-nav > li {
+text-align:center;
+    width: 100%;
+    }
+
+
+
+#side-nav{
+      position: absolute;
+    left: 0px;
+}
+
+
+.icon-bar{
+
+transition:all 0.3s linear;
+}
+
+.ex1{
+      transform: skewY(-43deg);
+          height: 3px!important;
+    margin-bottom: -7px!important;
+}
+.ex2{
+    transform: skewY(43deg);
+              height: 3px!important;
+    margin-bottom: 0px!important;
+  }
+
+.ex3{
+opacity:0;
+
+}
+
+
+
+.side-menu{
+  height:80vh;
+}
+
+.side-menu-tab{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: right;
+    font-family: haimg;
+    font-size: 20px;
+    background-color: #f8f8f8;
+ 
+}
+
+@media (max-width: 991px) {
+.side-menu-tab{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: haimg;
+    font-size: 20px;
+}
+.side-menu{
+  height:10vh;
+}
+}
